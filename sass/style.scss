@@ -149,6 +149,12 @@ body {
   font-size: 12px;
   font-weight: 400;
   line-height: 1.6; /* 19.2px */
+  transition: color 0.3s;
+
+  &:hover {
+    color: var(--color-sub-dblue);
+    text-decoration: underline;
+  }
 }
 
 .header__button {
